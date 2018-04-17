@@ -1,5 +1,7 @@
 # Merriweather
 
+[![Gem Version](https://badge.fury.io/rb/merriweather.svg)](https://badge.fury.io/rb/merriweather)
+
 Welcome to the Merriweather Jekyll theme! Merriweather has a minimal layout emphasizing content and readability, mainly designed for a blog. The name is based off of the site's main font.
 
 [Demo](https://merriweather.maxshalom.me) *(Coming Soon)*
