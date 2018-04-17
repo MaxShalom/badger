@@ -4,19 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
-  <title>Footer</title>
+  <title>Header</title>
   <style>
-    .my-footer {text-align: center; padding-top: 3%;}
-    a {color:black; text-decoration: underline;}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgba(0, 0, 0, 0);
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        text-decoration: underline;
+    }
   </style>
 </head>
-<body class="my-footer">
-  <div class="columns">
-    <p class="column"><a href="http://maxshalom.me">Max Shalom</a></p>
-    <p class="column"><a href="mailto:hello@maxshalom.me">Email me</a></p>
-    <p class="column"><a href="https://blog.maxshalom.me">Blog Home</a></p>
-  </div>
-  <p align="center">Made with the <a href="https://github.com/MaxShalom/badger">Bager</a> Jekyll theme.</p>
+<body>
+    
+  <ul>
+    <li><a href="http://maxshalom.me">Max Shalom</a></li>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="mailto:hello@maxshalom.me">Email me</a></li>
+  </ul>
+    
 </body>
 </html>
